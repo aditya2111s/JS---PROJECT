@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: #555;
+  width: 40rem;
+  height: 40rem; /* same as width → square */
+  display: flex;
+  flex-direction: column; /* important for your layout */
+  align-items: center;
+  border-radius: 1rem;
+}
+.search-box {
+  margin-top: 5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+input,
+button {
+  border: none;
+  font-size: 2rem;
+  padding: 1.2rem;
+  border-radius: 1.5rem;
+  margin-bottom: 3rem;
+}
+.movie,
+.movie-rating,
+.movie-plot,
+.error {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.movie-plot {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  text-align: center;
+  padding: 1rem 2rem;
+  color: #222;
+}
+.movie-plot {
+  max-width: 90%;
+}
+.hidden {
+  display: none;
+}
