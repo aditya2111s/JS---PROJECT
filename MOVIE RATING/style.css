@@ -36,6 +36,12 @@ button {
   border-radius: 1.5rem;
   margin-bottom: 3rem;
 }
+button:hover {
+  background-color: #adb5bd;
+}
+input:hover {
+  background-color: #adb5bd;
+}
 .movie,
 .movie-rating,
 .movie-plot,
